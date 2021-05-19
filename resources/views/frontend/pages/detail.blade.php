@@ -127,7 +127,8 @@
 
 <div class="about_movie_wrapper">
     <div class="thumb">
-        <img src="{{$info__->potraitimage}}" alt="">
+        <img src="{{asset($info__->potraitimage)}}" alt="">
+        
     </div>
     <div class="about_info">
         <h3 class="mb_20">About</h3>
