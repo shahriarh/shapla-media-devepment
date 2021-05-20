@@ -25,6 +25,7 @@ Route::get('/home', [App\Http\Controllers\FrontendController::class, 'index'])->
 Route::get('/abouts', [App\Http\Controllers\FrontendController::class, 'about'])->name('frontend.about');
 Route::get('/contact', [App\Http\Controllers\FrontendController::class, 'contact'])->name('frontend.contact');
 Route::get('/media/{id}', [App\Http\Controllers\FrontendController::class, 'view'])->name('frontend.view');
+Route::get('/medias', [App\Http\Controllers\FrontendController::class, 'media'])->name('frontend.media');
 //Route::get('/business-division/view/{id}','BusinessDivisionController@view')
 
 //Route::get('/home', [App\Http\Controllers\FrontendController::class, 'banner'])->name('home');

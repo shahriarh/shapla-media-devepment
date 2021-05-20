@@ -14,6 +14,15 @@ class FrontendController extends Controller
         $mdata['media'] = Movie::orderBy('id', 'desc')->get();
         return view('frontend.pages.home')->with($mdata);
     }
+    public function media()
+    {
+        $mdata['slider'] = Banner::orderBy('id', 'desc')->get();
+        $mdata['hot'] = Movie::orderBy('id', 'desc')->get();
+        $mdata['new'] = Movie::orderBy('id', 'desc')->get();
+        $mdata['media'] = Movie::orderBy('id', 'desc')->get();
+        return view('frontend.pages.movies')->with($mdata);
+    }
+
     public function view($id)
     {
 

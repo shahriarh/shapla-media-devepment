@@ -24,7 +24,7 @@
                             <nav>
                                 <ul id="mobile-menu">
                                     <li>
-                                        <a href="#">
+                                        <a href="{{route('frontend.media')}}">
                                             <svg focusable="false" viewBox="0 0 20 20"
                                                 xmlns="http://www.w3.org/2000/svg">
                                                 <path
