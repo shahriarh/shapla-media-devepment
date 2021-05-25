@@ -126,13 +126,13 @@
         items: 1
       },
       767: {
-        items: 8
+        items: 5
       },
       992: {
-        items: 8
+        items: 5
       },
       1200: {
-        items: 9
+        items: 6
       }
     }
   });

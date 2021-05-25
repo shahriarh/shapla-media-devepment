@@ -44,7 +44,11 @@
           <td>{{$item->description}}</td>
           <td><img src="{{asset($item->potraitimage)}}" height="150px" width="150px" alt=""></td>
           <td><img src="{{asset($item->landscapeimage)}}" height="150px" width="150px" alt=""></td>
-          <td class="sorting_1"></td>
+          <td class="sorting_1">
+            <a href="{{url('movie')}}/edit/{{$item->id}}" class="btn btn-success">Edit</a>
+            <a href="{{ url('movie') }}/delete/{{$item->id}}" class="btn btn-danger">Delete</a>
+            <a href="#" class="btn btn-primary">View</a>
+          </td>
           
           
         </tr>

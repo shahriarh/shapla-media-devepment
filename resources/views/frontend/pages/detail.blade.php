@@ -74,7 +74,7 @@
             </div>
             <div class="single_brand">
                 <a href="#">
-                    <img src="img/brand/1.jpg" alt="">
+                    <img src="{{asset('img/brand/1.jpg')}}" alt="">
                 </a>
             </div>
             <div class="single_brand">
@@ -212,17 +212,12 @@
             </div>
             <div class="item">
                 <div class="single_testmonial">
-                    <img src="{{asset('img/gallery/1.jpg')}}" alt="">
+                    <img src="{{asset('img/gallery/3.jpg')}}" alt="">
                 </div>
             </div>
             <div class="item">
                 <div class="single_testmonial">
-                    <img src="{{asset('img/gallery/1.jpg')}}" alt="">
-                </div>
-            </div>
-            <div class="item">
-                <div class="single_testmonial">
-                    <img src="{{asset('img/gallery/tungi-para.jpg')}}" alt="">
+                    <img src="{{asset('img/gallery/4.jpg')}}" alt="">
                 </div>
             </div>
             <div class="item">
@@ -232,74 +227,82 @@
             </div>
             <div class="item">
                 <div class="single_testmonial">
-                    <img src="{{asset('img/gallery/tungi-para.jpg')}}" alt="">
+                    <img src="{{asset('img/gallery/5.jpg')}}" alt="">
                 </div>
             </div>
             <div class="item">
                 <div class="single_testmonial">
-                    <img src="{{asset('img/gallery/tungi-para.jpg')}}" alt="">
+                    <img src="{{asset('img/gallery/6.jpg')}}" alt="">
                 </div>
             </div>
             <div class="item">
                 <div class="single_testmonial">
-                    <img src="{{asset('img/gallery/tungi-para.jpg')}}" alt="">
+                    <img src="{{asset('img/gallery/7.jpg')}}" alt="">
                 </div>
             </div>
             <div class="item">
                 <div class="single_testmonial">
-                    <img src="{{asset('img/gallery/tungi-para.jpg')}}" alt="">
+                    <img src="{{asset('img/gallery/8.jpg')}}" alt="">
                 </div>
             </div>
             <div class="item">
                 <div class="single_testmonial">
-                    <img src="{{asset('img/gallery/tungi-para.jpg')}}" alt="">
+                    <img src="{{asset('img/gallery/9.jpg')}}" alt="">
                 </div>
             </div>
             <div class="item">
                 <div class="single_testmonial">
-                    <img src="{{asset('img/gallery/tungi-para.jpg')}}" alt="">
+                    <img src="{{asset('img/gallery/10.jpg')}}" alt="">
                 </div>
             </div>
             <div class="item">
                 <div class="single_testmonial">
-                    <img src="{{asset('img/gallery/tungi-para.jpg')}}" alt="">
+                    <img src="{{asset('img/gallery/11.jpg')}}" alt="">
+                </div>
+            </div>
+            <div class="item">
+                <div class="single_testmonial">
+                    <img src="{{asset('img/gallery/12.jpg')}}" alt="">
                 </div>
             </div>
         </div>
 
         <div class="slider-nav">
             <div class="item">
-                <img src="{{asset('img/gallery/tungi-para.jpg')}}" alt="">
+                <img src="{{asset('img/gallery/1.jpg')}}" alt="">
+            </div>
+            <div class="item">
+                <img src="{{asset('img/gallery/3.jpg')}}" alt="">
+            </div>
+            <div class="item">
+                <img src="{{asset('img/gallery/4.jpg')}}" alt="">
             </div>
             <div class="item">
                 <img src="{{asset('img/gallery/tungi-para.jpg')}}" alt="">
             </div>
             <div class="item">
-                <img src="{{asset('img/gallery/tungi-para.jpg')}}" alt="">
+                <img src="{{asset('img/gallery/5.jpg')}}" alt="">
             </div>
             <div class="item">
-                <img src="{{asset('img/gallery/tungi-para.jpg')}}" alt="">
+                <img src="{{asset('img/gallery/6.jpg')}}" alt="">
             </div>
             <div class="item">
-                <img src="{{asset('img/gallery/tungi-para.jpg')}}" alt="">
+                <img src="'{{asset('img/gallery/7.jpg')}}'" alt="">
             </div>
             <div class="item">
-                <img src="{{asset('img/gallery/tungi-para.jpg')}}" alt="">
+                <img src="{{asset('img/gallery/8.jpg')}}" alt="">
             </div>
             <div class="item">
-                <img src="'{{asset('img/gallery/tungi-para.jpg')}}'" alt="">
+                <img src="{{asset('img/gallery/9.jpg')}}" alt="">
             </div>
             <div class="item">
-                <img src="{{asset('img/gallery/tungi-para.jpg')}}" alt="">
+                <img src="{{asset('img/gallery/10.jpg')}}" alt="">
             </div>
             <div class="item">
-                <img src="{{asset('img/gallery/tungi-para.jpg')}}" alt="">
+                <img src="{{asset('img/gallery/11.jpg')}}" alt="">
             </div>
             <div class="item">
-                <img src="{{asset('img/gallery/tungi-para.jpg')}}" alt="">
-            </div>
-            <div class="item">
-                <img src="{{asset('img/gallery/tungi-para.jpg')}}" alt="">
+                <img src="{{asset('img/gallery/12.jpg')}}" alt="">
             </div>
         </div>
     </div>

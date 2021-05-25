@@ -1,6 +1,6 @@
 <div class="movie_list_area">
     <div class="section__title">
-        <h3>New Released Movies In Theaters and on Cinebaz</h3>
+        <h3>Up Comming Movies In Theaters and on Cinebaz</h3>
     </div>
     <div class="movie_lists movie_lists_carousel owl-carousel">
         @foreach ($new as $list)

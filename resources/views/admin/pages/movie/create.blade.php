@@ -32,7 +32,7 @@
             </div>
             <div class="form-group">
                 <label>Movie Detail</label>
-                <textarea class="form-control" rows="3" name="movie-details" placeholder="Enter ..." style="margin-top: 0px; margin-bottom: 0px; height: 92px;"></textarea>
+                <textarea class="form-control" rows="3" name="movie_details" placeholder="Enter ..." style="margin-top: 0px; margin-bottom: 0px; height: 92px;"></textarea>
             </div>
             <div class="form-group">
                 <label for="exampleInputEmail1">Link</label>

@@ -44,4 +44,24 @@ class AboutController extends Controller
 
         return redirect()->route('about.index');
     }
+    public function edit($id)
+    {
+
+        //return Redirect::to('customer')->with('success','Currently This Feature disable by admin..');
+
+        if (strlen($id) == 0) {
+            return redirect()->back()->withErrors('No about id found.');
+        }
+
+        $info__ = About::find($id);
+
+        if (empty($info__)) {
+            return redirect('about.index')->withErrors('No about information found.');
+        }
+
+
+        $data['info__'] = $info__;
+
+        return view('admin.pages.about.edit', $data);
+    }
 }

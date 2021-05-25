@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\About;
 use App\Models\Banner;
 use App\Models\Movie;
 use Illuminate\Http\Request;
@@ -17,10 +18,19 @@ class FrontendController extends Controller
     public function media()
     {
         $mdata['slider'] = Banner::orderBy('id', 'desc')->get();
-        $mdata['hot'] = Movie::orderBy('id', 'desc')->get();
+        $mdata['trendy'] = Movie::orderBy('id', 'desc')->get();
         $mdata['new'] = Movie::orderBy('id', 'desc')->get();
         $mdata['media'] = Movie::orderBy('id', 'desc')->get();
         return view('frontend.pages.movies')->with($mdata);
+    }
+
+    public function allmovie()
+    {
+        $mdata['slider'] = Banner::orderBy('id', 'desc')->get();
+        $mdata['trendy'] = Movie::orderBy('id', 'desc')->get();
+        $mdata['new'] = Movie::orderBy('id', 'desc')->get();
+        $mdata['media'] = Movie::orderBy('id', 'desc')->first();
+        return view('frontend.pages.allmovies')->with($mdata);
     }
 
     public function view($id)
@@ -47,12 +57,12 @@ class FrontendController extends Controller
     {
 
         $banner['slider'] = Banner::orderBy('id', 'desc')->get();
+        $banner['about'] = About::orderBy('id', 'desc')->first();
         return view('frontend.pages.about')->with($banner);
     }
     public function contact()
     {
-
         $banner['slider'] = Banner::orderBy('id', 'desc')->get();
-        return view('frontend.pages.contact')->with($banner);
+        return view('frontend.pages.contact',)->with($banner);
     }
 }

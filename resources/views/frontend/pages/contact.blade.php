@@ -4,35 +4,36 @@
 @section('content')
 <section class="contactt">
   <div class="contents">
-      <h2>Contact US </h2>
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit voluptatibus maiores illum, possimus
-          sapiente sit officiis debitis in reprehenderit consectetur nesciunt! Quod ad officiis deleniti earum
-          ipsa laborum sint culpa?</p>
+      
+      
 
   </div>
   <div class="container contain">
       <div class="contactInfo">
+        <div class="section__title">
+            <h3> Contact Us</h3>
+        </div>
           <div class="box">
-              <div class="icon"><i class="fas fa-map-marker"></i> </div>
+              <div class="icon"><i class="fas fa-map-marker-alt fas "></i> </div>
               <div class="text">
-                  <h3>Address</h3>
+                  <h4 class="text-uppercase ">Address</h4>
                   <p>80/3 Kakrail, VIP road, <br>Kakrail, Dhaka, <br>1200</p>
               </div>
 
           </div>
           <div class="box">
-              <div class="icon"> <i class="fas fa-phone-square-alt"></i></div>
+              <div class="icon"> <i class="fas fa-phone-square-alt  "></i></div>
 
               <div class="text">
-                  <h3>Phone</h3>
+                  <h4 class="text-uppercase ">Phone</h4>
                   <p>+0080122222289</p>
               </div>
 
           </div>
           <div class="box">
-              <div class="icon"> <i class="fas fa-envelope"></i></div>
+              <div class="icon"> <i class="fas fa-envelope "></i></div>
               <div class="text">
-                  <h3>Email</h3>
+                  <h4 class="text-uppercase ">Email</h4>
                   <p>shaplamedial@mail.net</p>
               </div>
 

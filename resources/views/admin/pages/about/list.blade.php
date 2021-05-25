@@ -53,7 +53,14 @@
           <td>{{$item->mission}}</td>
           <td>{{$item->vision}}</td>
           
-          <td class="sorting_1"></td>
+          <td class="sorting_1">
+            <a href="{{url('about')}}/edit/{{$item->id}}" class="btn btn-success" style="width: 70px">Edit</a>
+            <a href="{{ url('about') }}/delete/{{$item->id}}" class="btn btn-danger" style="width: 70px">Delete</a>
+            <a href="#" class="btn btn-primary" style="width: 70px">View</a>
+            {{-- <button type="button" class="btn btn-success" style="width: 70px">Edit</button>
+<button type="button" class="btn btn-danger" style="width: 70px">Delete</button>
+<button type="button" class="btn btn-warning" style="width: 70px">View</button> --}}
+          </td>
           
           
         </tr>

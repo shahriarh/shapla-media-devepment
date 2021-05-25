@@ -39,7 +39,11 @@
           <td class="">#</td>
           <td>{{$item->name}}</td>
           <td><img src="{{asset($item->image)}}" height="150px" width="150px" alt=""></td>
-          <td class="sorting_1"></td>
+          <td class="sorting_1">
+            <a href="{{url('banner')}}/edit/{{$item->id}}" class="btn btn-success">Edit</a>
+            <a href="{{ url('banner') }}/delete/{{$item->id}}" class="btn btn-danger">Delete</a>
+            <a href="#" class="btn btn-primary">View</a>
+          </td>
           
           
         </tr>

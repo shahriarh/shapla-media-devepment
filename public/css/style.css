@@ -1515,6 +1515,11 @@ label {
 .header_area .logo_img svg {
   width: 1.5625rem;
 }
+.logos {
+  padding: 5px;
+  height: 55px;
+  width: auto;
+}
 
 /* line 16, G:/laragon/www/movie/scss/_header.scss */
 .header_area.header_static {
@@ -4540,7 +4545,7 @@ footer .quick_links_area .quick_links a {
 
 /* about-page */
 .grid-container{
-  display: grid;
+  display: flex;
   grid-template-columns: auto auto auto auto;
 }
 .news-img{
@@ -4551,6 +4556,9 @@ footer .quick_links_area .quick_links a {
   cursor: pointer;
 }
 
+/* .bg-lavender {
+  background-color: lavender !important;
+} */
 
 /* contact */
 .contactt{
@@ -4561,7 +4569,7 @@ footer .quick_links_area .quick_links a {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background: url(../img/movie_img/bgp.jpeg);
+  /* background: url(../img/movie_img/1.png); */
   background-size: cover;
 }
 .contactt .contents{
@@ -4597,14 +4605,16 @@ footer .quick_links_area .quick_links a {
 }
 .container .contactInfo .box .icon{
   min-width: 60px;
-  height: 60px;
+  /* height: 60px; */
   background: #fff;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   border-radius: 50%;
   font-size: 22px;
+  padding-top: 5px;
 }
+
 .container .contactInfo .box .text{
   display: flex;
   margin-left: 20px;
@@ -4686,6 +4696,14 @@ footer .quick_links_area .quick_links a {
   }
 }
 
+/* About Us Page CSS */
+
+.article-image {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 100%;
+}
 
 /*----------------------------------------------------*/
 
